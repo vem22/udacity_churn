@@ -36,7 +36,7 @@ This dataset was pulled from [Kaggle](https://www.kaggle.com/datasets/sakshigoya
 
 ### Images folder
 #### eda
-This folder will contain the results of the EDA. Running the project, it will be created those files: 
+Once the project has been executed, this folder will contain the results of the EDA: 
 - `churn_distribution.png`, the dataset churn distribution
 - `columns_correlation_heatmap.png`, the correlation heatmap
 - `customer_age_distribution.png`, the age distribution
@@ -44,18 +44,19 @@ This folder will contain the results of the EDA. Running the project, it will be
 - `total_trans_ct_distribution.png`, the total transaction count distribution
 
 #### results
-This folder will contain the models results plots. Running the project, it will be created those files: 
+Once the project has been executed, results model plots will be saved in this folder. You will find: 
 - `logistic_regression_results.png`, containing the classification report of the logistic regression model; 
 - `random_forest_features_importance.png`, containing the features importance of the random forest;
 - `random_forest_results.png`, the classification report of the random forest model;
 - `roc_curves_results.png`, ROC curves of the two models;
 
 ### Logs folder
+Once the project has been executed, the following files will be displayed:
 - `churn_execution.log`, log file of churn execution (churn_main.py);
 - `churn_tests.log`, log file of tests execution;
 
 ### Models folder
-In this folder it will be stored the outputs of the two models. You will find: 
+Once the project has been executed, in this folder it will be stored the outputs of the two models. You will find: 
 - `logistic_regression.pkl`, object of logistic regression model;
 - `random_forest.pkl`, object of random forest model;
 
