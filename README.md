@@ -67,6 +67,8 @@ You will just find `churn_notebook.ipynb`, it is the notebook of the first relea
 - `churn_script_logging_and_tests.py`, python file that contains unit tests for the churn_library.py functions;
 
 ## Running Files
+
+### Run train churn models 
 Running the training model will require: 
 1. Follow installation instructions; 
 2. Activate the environment (run `conda activate envname`)
@@ -77,7 +79,9 @@ This running will create:
 - Model results plots in `images/results/` folder; 
 - Model object in `models/` folder; 
 
+### Run tests
+Running the tests will require to run: 
+`python test/churn_script_logging_and_tests.py`
 
-
-
-
+This running will create: 
+- log file in `logs/churn_tests.log`. The result of successful and failure of tests are logged into it
